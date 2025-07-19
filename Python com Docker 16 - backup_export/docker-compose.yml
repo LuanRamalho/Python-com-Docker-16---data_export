@@ -1,9 +1,0 @@
-version: "3"
-services:
-  backup_app:
-    build: .
-    volumes:
-      - .:/app
-    environment:
-      - DISPLAY=:0
-    network_mode: "host"
